@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34258805/README.md)
 # jTemplates
 
 jTemplates customizes resource and template editing forms in Evolution CMS 3.5.7 or later.
