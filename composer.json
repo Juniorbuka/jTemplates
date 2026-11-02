@@ -1,0 +1,36 @@
+{
+  "name": "jevo/jtemplates",
+  "description": "Configurable resource editing forms for Evolution CMS",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "evolutioncms",
+    "evo",
+    "templates",
+    "manager",
+    "jtemplates"
+  ],
+  "require": {
+    "php": "^8.3",
+    "evolution-cms/evolution": "^3.5.7"
+  },
+  "autoload": {
+    "classmap": [
+      "assets/plugins/jTemplates/class/"
+    ],
+    "psr-4": {
+      "Jevo\\jTemplates\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jevo\\jTemplates\\jTemplatesServiceProvider"
+      ]
+    }
+  },
+  "support": {
+    "issues": "https://github.com/Juniorbuka/jTemplates/issues",
+    "source": "https://github.com/Juniorbuka/jTemplates"
+  }
+}
